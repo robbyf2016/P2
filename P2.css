@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #FFF;
+}
+.container{
+	width: 960px;
+	height: 570px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.content{
+	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	padding: 0px;
+}
+.content2{
+	float:right;
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+h5{
+	text-align: center;
+}
+#pw{
+	text-align: center;
+	background-color: #FFF;
+	color: #F00;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#php_footer{
+	width: 227px;
+	background-color: #FFF;
+	margin: auto;
+	float: none;
+	display: block;
+}
+#password_result{
+	background-color: #FFF;
+}
+#pw_fields{
+	background-color: #6CF;
+}
