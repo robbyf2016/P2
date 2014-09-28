@@ -17,7 +17,8 @@
 <!--This is the CSS style sheet used by P2                                    --> 
 <!--**************************************************************************-->
 <link href="P2.css" rel="stylesheet" type="text/css">
-<?php require 'logic.php'; ?>
+<?php require 'logic.php'; ?><!--Require will force the program to stop       
+execution if there is a problem-->
 
 </head>
 
@@ -26,7 +27,8 @@
 <!--**************************************************************************-->
 <!--This is the php header reference.                                         -->
 <!--**************************************************************************-->
-<?php include("header.php"); ?>
+<?php include("header.php"); ?><!--Include will only generate an error but will
+allow the program to continue to execute-->
   
 	  <div class="content">
       <!--Start of form to prompt user to select options for a generated password-->
@@ -73,6 +75,7 @@
   <!--**************************************************************************-->
   <!--This is the php footer used for P2                                        -->
   <!--**************************************************************************--> 
-  <?php include("footer.php"); ?>
+  <?php include("footer.php"); ?><!--Include will only generate an error but will
+allow the program to continue to execute-->
 </body>
 </html>
