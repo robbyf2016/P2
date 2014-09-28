@@ -1,6 +1,8 @@
 <?php
  
-$password = ""; 
+$password = "";
+$upper_bounds = 9;
+$lower_bounds = 0; 
  
 $word_list = Array(
     1 => "schedule",
@@ -48,6 +50,6 @@ if ((!empty($_GET['include_symbol']) ? $_GET['include_symbol'] : null) == 'yes')
 	
 if ((!empty($_GET['include_number']) ? $_GET['include_number'] : null) == 'yes')
 	{	
-		$rand_number = rand(0,9);	
+		$rand_number = rand($lower_bounds,$upper_bounds);	
 		$password = $password . "[" . $rand_number . "]  ";
 	}
